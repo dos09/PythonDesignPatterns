@@ -1,2 +1,1 @@
-For practice while reading
-https://sourcemaking.com/design_patterns
+for practice while reading "design pattern" stuff
