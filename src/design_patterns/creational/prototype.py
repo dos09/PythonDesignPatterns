@@ -1,3 +1,8 @@
+"""
+When the initialization of object X is heavy/time-consuming,
+instead of initializing new instance every time, initialize it once,
+cache it and when instance is needed, just copy from the cache.
+"""
 import copy
 
 
