@@ -1,6 +1,6 @@
 """
 This design patterns seems very non-intuitive and useless,
-it doesn't deserve to think example for it.
+it's not worth thinking example for it
 Everything below is copied from 
 https://sourcemaking.com/design_patterns/command/python/1 
 
