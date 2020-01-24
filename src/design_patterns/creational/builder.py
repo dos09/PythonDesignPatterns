@@ -1,4 +1,6 @@
 """
+The example in this file is not really accurate.
+
 Split one complex class (Meal) in smaller classes which
 can be used together (CheeseBurger, BananaBurger, Fanta, Airan)
 """
