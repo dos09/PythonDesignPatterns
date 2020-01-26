@@ -1,10 +1,21 @@
 """
 Goal: decoupling
 
+Description 1 (confusing):
 Makes the implementation of concrete classes (Circle)
 independent from the implementation of "interface implementing classes" 
 (RedCircleDrawAPI, GreenCircleDrawAPI)
+
+Description 2:
+    Shape  -> uses  Color
+    /   \            / \          
+Circle Rectangle   Red Green
+
+    When having shape and need to add color to it, instead of having
+    sub-classes like RedCircle, RedRectangle, the Shape class will use
+    Color object (composition)
 """
+
 
 class DrawAPI:
 
