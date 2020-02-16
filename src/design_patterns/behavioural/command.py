@@ -1,5 +1,5 @@
 """
-This design patterns seems very non-intuitive and useless,
+This design pattern seems very non-intuitive and useless,
 it's not worth thinking example for it
 Everything below is copied from 
 https://sourcemaking.com/design_patterns/command/python/1 
