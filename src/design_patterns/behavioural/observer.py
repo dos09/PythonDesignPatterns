@@ -38,7 +38,6 @@ class Observer:
     
     def update(self, subject):
         print('observer dummy update')
-        pass
 
 
 class Valkyrie(Observer):
