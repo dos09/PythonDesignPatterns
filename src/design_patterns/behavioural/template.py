@@ -55,9 +55,9 @@ class UsersImportFromMongo(UsersImport):
     
     def transform_data(self, data):
         print('transforming Mongo data')
-        return {t['name']: t['age'] for t in data}
+        return {d['name']: d['age'] for d in data}
 
-            
+
 def run():
     UsersImportFromPostgreSQL().run()
     UsersImportFromMongo().run()
