@@ -1,6 +1,8 @@
 """
-Object can save its states and restore to previous state
+Lets you save and restore the previous state of an object 
+without revealing the details of its implementation.
 """
+
 from datetime import datetime
 import json
 

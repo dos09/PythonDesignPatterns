@@ -1,3 +1,34 @@
+"""
+Visitor is a behavioral design pattern that lets you separate algorithms 
+from the objects on which they operate.
+
+If you have different classes and must add some functionality to them,
+but don't want to change these classes (avoid breaking something)
+can create Visitor class where to store the methods. Each class will have
+method accepting visitor and calling the appropriate visitor's method.
+Example:
+    -having 
+    
+    class XMLData
+    class CSVData
+    
+    - need to add functionality to extract data to JSON
+    - create
+    
+    class Visitor:
+        def xml_to_json(obj)...
+        def csv_to_json(obj)...
+        
+    - change
+    
+    class XMLData
+        def accept(self, visitor):
+            visitor.xml_to_json(self)
+            
+    class CSVData
+        def accept(self, visitor):
+            visitor.csv_to_json(self)
+"""
 
 
 class DataExtractVisitor:

@@ -1,4 +1,9 @@
 """
+Also known as: Object Tree
+Composite is a structural design pattern that lets you compose objects into 
+tree structures and then work with these structures as if they were individual 
+objects.
+
 use case: products and boxes. Can have a box with products and boxes,
 and these boxes can have other products and boxes, ...
 

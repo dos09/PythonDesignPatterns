@@ -1,4 +1,9 @@
 """
+Proxy is a structural design pattern that lets you provide a substitute or 
+placeholder for another object. A proxy controls access to the original 
+object, allowing you to perform something either before or after the 
+request gets through to the original object.
+
 Instead of using object X use proxy of X which will
 take care for some additional stuff (security, logging... it can
 do something before/after or during the main action where object X is used)

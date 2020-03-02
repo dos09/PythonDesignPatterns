@@ -1,5 +1,6 @@
 """
 The example in this file is not really accurate.
+(check builder2.py)
 
 Split one complex class (Meal) in smaller classes which
 can be used together (CheeseBurger, BananaBurger, Fanta, Airan)

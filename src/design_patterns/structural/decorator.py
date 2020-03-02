@@ -1,3 +1,10 @@
+"""
+Decorator is a structural design pattern that lets you attach new 
+behaviors to objects by placing these objects inside special wrapper 
+objects that contain the behaviors.
+"""
+
+
 class Warrior:
     
     def __init__(self, name):
@@ -19,7 +26,7 @@ class Tauren(Warrior):
         print('the tauren %s attacks' % self.name)
         
         
-class FartingDecorator: # FartingWarrior
+class FartingDecorator:  # FartingWarrior
     
     def __init__(self, warrior):
         self.warrior = warrior

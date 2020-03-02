@@ -1,3 +1,7 @@
+"""
+Adapter is a structural design pattern that allows objects with 
+incompatible interfaces to collaborate.
+"""
 
 
 class AudioPlayer:
@@ -13,7 +17,6 @@ class AudioPlayer:
             print('playing MP3: "%s"' % file_name)
         elif not MediaAdapter.play(media_type, file_name):
             print('Unrecognized format, failed to play: "%s"' % file_name)
-        
 
 
 class MediaAdapter:
